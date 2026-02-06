@@ -62,7 +62,7 @@ function App() {
       <div className="section">
         <h3>Filters</h3>
         <div className="filters">
-          <select onChange={(e)=>setTimeFilter(e.target.value)}>
+          <select>
             <option>Weekly</option>
             <option>Monthly</option>
             <option>Yearly</option>
@@ -70,12 +70,12 @@ function App() {
 
           <div className="date-group">
             <label>From</label>
-            <input type="date" onChange={(e)=>setFromDate(e.target.value)} />
+            <input type="date"  />
           </div>
 
           <div className="date-group">
             <label>To</label>
-            <input type="date" onChange={(e)=>setToDate(e.target.value)} />
+            <input type="date"  />
           </div>
         </div>
       </div>
