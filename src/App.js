@@ -9,9 +9,6 @@ function App() {
   const [showModal, setShowModal] = useState(false);
 
   // Filters
-  const [timeFilter, setTimeFilter] = useState("monthly");
-  const [fromDate, setFromDate] = useState("");
-  const [toDate, setToDate] = useState("");
 
   // Assets (simple manual)
   const [assets, setAssets] = useState({ cash:0, bank:0, wallet:0 });
